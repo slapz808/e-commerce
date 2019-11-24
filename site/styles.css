@@ -4,6 +4,7 @@
   --primaryColor: #00CE2A;
   --mainWhite: #fff;
   --mainBlack: #222;
+  --mainLavender: #fbaed2;
   --mainGreen: #00CE2A;
   --mainGrey: #ececec;
   --mainSpacing: 0.1rem;
@@ -16,7 +17,7 @@
 }
 body { 
   color: var(--mainBlack);
-  background: var(--mainWhite);
+  background: var(--mainGrey);
   font-family: 'Roboto', sans-serif;
 }
 /* --------------- Navbar ---------------- */
@@ -32,7 +33,7 @@ body {
 }
 .navbar-center {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1500px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -162,6 +163,9 @@ body {
   margin-top: 0.7rem;
   letter-spacing: var(--mainSpacing);
   color: var(--primaryColor);
+  text-align: center;
+}
+.product p {
   text-align: center;
 }
 
