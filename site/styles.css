@@ -51,6 +51,10 @@ body {
   position: relative;
   cursor: pointer;
 }
+.bars-btn {
+  position: relative;
+  cursor: pointer;
+}
 .cart-items {
   position: absolute;
   top: -8px;
@@ -96,6 +100,10 @@ body {
   border: 1px solid var(--mainBlack);
   transition: var(--mainTransition);
   cursor: pointer;
+}
+.banner-btn a {
+  text-decoration: none;
+  color: inherit;
 }
 .banner-btn:hover {
   background: transparent;
