@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
 :root {
-  --primaryColor: #00CE2A;
+  --primaryColor: #3FBAC2;
   --mainWhite: #fff;
   --mainBlack: #222;
   --mainLavender: #fbaed2;
   --mainGreen: #00CE2A;
   --mainGrey: #ececec;
+  --newTeal:#3FBAC2;
+  --newWhite:#F5F5F5;
+  --newLiteGrey:#D3D4D8;
+  --newGrey:#676D6E;
   --mainSpacing: 0.1rem;
   --mainTransition: all 0.3s linear;
 }
@@ -17,7 +21,7 @@
 }
 body { 
   color: var(--mainBlack);
-  background: var(--mainGrey);
+  background: var(--newLiteGrey);
   font-family: 'Roboto', sans-serif;
 }
 /* --------------- Navbar ---------------- */
@@ -60,7 +64,7 @@ body {
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(80vh - 60px);
-  background: url("./images/bg.jpg") center/cover no-repeat;
+  background: url("./images/bg.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,20 +75,25 @@ body {
   display: inline-block;
   padding: 2rem;
 }
-.banner-title {
+.banner-titleh1 {
   font-size: 3.4rem;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
+}
+.banner-titleh2 {
+
+}
+.banner-titleh3 {
   margin-bottom: 3rem;
 }
 .banner-btn {
-  padding: 1rem 3rem;
+  padding: 0.7rem 2.7rem;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   font-size: 1rem;
-  background: var(--primaryColor);
+  background: var(--newTeal);
   color: var(--mainBlack);
-  border: 1px solid var(--primaryColor);
+  border: 1px solid var(--mainBlack);
   transition: var(--mainTransition);
   cursor: pointer;
 }
