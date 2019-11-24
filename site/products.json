@@ -4,7 +4,7 @@
       "sys": { "id": "1" },
       "fields": {
         "title": "Windows 10 Pro License",
-        "price": 199,
+        "price": 199.99,
         "image": { "fields": { "file": { "url": "./images/msw10-pro.jpg" } } }
       }
     },
