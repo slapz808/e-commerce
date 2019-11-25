@@ -39,12 +39,14 @@ body {
   text-overflow: ellipsis;
 }
 .logo {
-  width: 350;
-  height: 47;
+  height: auto;
+  width: auto;
+  max-width: 350px;
+  max-height: 50px;
 }
 .navbar-center {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1111px;
   margin: 0 auto;
   display: flex;
   align-items: center;
