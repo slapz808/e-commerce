@@ -5,7 +5,7 @@
   --mainWhite: #fff;
   --mainBlack: #222;
   --mainLavender: #fbaed2;
-  --mainGreen: #5dfc7c;
+  --mainGreen: #6ebd7e;
   --mainGrey: #ececec;
   --newTeal: #3fbac2;
   --newWhite: #f5f5f5;
@@ -46,7 +46,7 @@ body {
 }
 .navbar-center {
   width: 100%;
-  max-width: 950px;
+  max-width: 900px;
   margin: 0 auto;
   display: flex;
   align-items: center;
