@@ -84,9 +84,6 @@ body {
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
 }
-.banner-titleh2 {
-
-}
 .banner-titleh3 {
   margin-bottom: 3rem;
 }
