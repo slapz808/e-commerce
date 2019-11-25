@@ -68,7 +68,7 @@ body {
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(80vh - 60px);
-  background: url("./images/bg.gif");
+  background: url("./images/bg.gif") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
