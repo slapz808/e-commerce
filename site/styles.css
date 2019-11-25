@@ -36,7 +36,8 @@ body {
   z-index: 1;
 }
 .navbar-center {
-  width: 80%;
+  width: 100%;
+  max-width: 80%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -79,12 +80,11 @@ body {
   padding: 2.2vw;
 }
 .banner-titleh1 {
-  font-size: 6vw;
+  font-size: 3.4rem;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
 }
 .banner-titleh3 {
-  font-size: 2.6vw;
   margin-bottom: 3rem;
 }
 .banner-btn {
