@@ -45,19 +45,13 @@ body {
   padding: 0 1.5rem;
 }
 .nav-icon {
-  width: 1vw;
-  height: 1vw;
-}
-.logo {
-  position: relative;
+  font-size: 1.5rem;
 }
 .cart-btn {
-  font-size: 1.44vw;
   position: relative;
   cursor: pointer;
 }
 .bars-btn {
-  font-size: 1.4vw;
   position: relative;
   cursor: pointer;
 }
