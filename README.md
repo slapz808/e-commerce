@@ -5,4 +5,5 @@ Website currently in development./เว็บไซต์กำลังอย�
 
 Project สำหรับ วิทยาลัยเทคโนโลยีตั้งตรงจิตรพณิชยการ
 
-https://www.facebook.com/KennyRoyFitz166
+[Contact Writer Via Facebook](https://www.facebook.com/KennyRoyFitz166)
+
