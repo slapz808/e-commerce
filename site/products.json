@@ -4,64 +4,64 @@
       "sys": { "id": "1" },
       "fields": {
         "title": "Windows 10 Pro License",
-        "price": 199.99,
-        "image": { "fields": { "file": { "url": "./images/msw10-pro.jpg" } } }
+        "price": 199,
+        "image": { "fields": { "file": { "url": "./images/msw10-pro.png" } } }
       }
     },
     {
       "sys": { "id": "2" },
       "fields": {
-        "title": "king panel bed",
-        "price": 12.99,
-        "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
+        "title": "Windows 10 Home",
+        "price": 139,
+        "image": { "fields": { "file": { "url": "./images/msw10-home.png" } } }
       }
     },
     {
       "sys": { "id": "3" },
       "fields": {
-        "title": "single panel bed",
-        "price": 12.99,
-        "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
+        "title": "Kaspersky Anti-Virus 2019",
+        "price": 39.99,
+        "image": { "fields": { "file": { "url": "./images/kasper.png" } } }
       }
     },
     {
       "sys": { "id": "4" },
       "fields": {
-        "title": "twin panel bed",
-        "price": 22.99,
-        "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
+        "title": "McAfee Small Business Security 2018",
+        "price": 64.95,
+        "image": { "fields": { "file": { "url": "./images/mcafee.png" } } }
       }
     },
     {
       "sys": { "id": "5" },
       "fields": {
-        "title": "fridge",
-        "price": 88.99,
-        "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
+        "title": "Avast Pro Antivirus 2018",
+        "price": 29.99,
+        "image": { "fields": { "file": { "url": "./images/avast.png" } } }
       }
     },
     {
       "sys": { "id": "6" },
       "fields": {
-        "title": "dresser",
-        "price": 32.99,
-        "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+        "title": "Parallels Desktop 15 Pro",
+        "price": 99.99,
+        "image": { "fields": { "file": { "url": "./images/parallels.png" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
-        "price": 45.99,
-        "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } }
+        "title": "ESET NOD32 Antivirus",
+        "price": 39.99,
+        "image": { "fields": { "file": { "url": "./images/eset.png" } } }
       }
     },
     {
       "sys": { "id": "8" },
       "fields": {
-        "title": "table",
-        "price": 33.99,
-        "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+        "title": "MAGIX Movie Edit Pro Plus",
+        "price": 99.99,
+        "image": { "fields": { "file": { "url": "./images/magix.png" } } }
       }
     }
   ]
