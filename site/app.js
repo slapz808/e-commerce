@@ -68,7 +68,7 @@ class UI {
           </div>
           <h3>${product.title}</h3>
           <p>${product.des}</p>
-          <a href="./products/${product.detail}" >more...</a>
+          <a href="./${product.detail}" >more...</a>
           <h4>$${product.price}</h4>
         </article>
         <!-- end of single product -->
