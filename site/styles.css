@@ -235,6 +235,10 @@ body {
 .product p {
   text-align: center;
 }
+.product a {
+  text-align: center;
+  display: block;
+}
 
 /* ---------------End of Products ---------------- */
 /* --------------- Cart ---------------- */
