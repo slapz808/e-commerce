@@ -34,10 +34,10 @@ class Products {
 
       let products = contentful.items;
       products = products.map(item => {
-        const { title, price } = item.fields;
+        const { title, des, price } = item.fields;
         const { id } = item.sys;
         const image = item.fields.image.fields.file.url;
-        return { title, price, id, image };
+        return { title, des, price, id, image };
       });
 
       return products;
@@ -67,6 +67,7 @@ class UI {
             </button>
           </div>
           <h3>${product.title}</h3>
+          <p>${product.des}</p>
           <h4>$${product.price}</h4>
         </article>
         <!-- end of single product -->
