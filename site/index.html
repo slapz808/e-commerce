@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="shortcut icon" href="./favicon.ico" />
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,15 +19,22 @@
     <!-- navbar -->
     <nav class="navbar">
       <div class="navbar-center">
-        <div class="bars-btn">
-          <span class="nav-icon">
-            <i class="fas fa-bars"></i>
-          </span>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
         </div>
-        <img class="logo" src="./images/logo.svg" alt="store logo" />
+        <span class="nav-icon" onclick="openNav()"
+          ><i class="fas fa-bars"></i
+        ></span>
+        <img src="./images/logo.svg" alt="store logo" />
         <div class="cart-btn">
           <span class="nav-icon">
-            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-cart-plus"></i>
           </span>
           <div class="cart-items">0</div>
         </div>
