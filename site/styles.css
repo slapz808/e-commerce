@@ -151,6 +151,19 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
+.buy-banner-btn {
+    padding: 0.7rem 2.7rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    font-size: 1rem;
+    background: var(--mainLavender);
+    color: var(--mainWhite);
+    border: 1px solid var(--mainWhite);
+    transition: var(--mainTransition);
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .banner-btn a {
   text-decoration: none;
   color: inherit;
@@ -334,3 +347,17 @@ body {
   margin-bottom: 1rem;
 }
 /* --------------- End of Cart ---------------- */
+/* The alert message box */
+.alert {
+  padding: 0.7rem 2.7rem;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  font-size: 1rem;
+  background: var(--mainLavender);
+  color: var(--mainWhite);
+  border: 1px solid var(--mainWhite);
+  transition: var(--mainTransition);
+  cursor: pointer;
+  text-decoration: none;
+  
+}
