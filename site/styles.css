@@ -360,3 +360,15 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
+
+.month select {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 14px;
+}
+
+.year select {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 14px;
+}
